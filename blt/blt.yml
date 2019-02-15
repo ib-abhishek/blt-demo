@@ -9,7 +9,8 @@ project:
     hostname: local.blt-d8.com
 git:
   default_branch: master
-  remotes: {  }
+  remotes:
+    cloud: 'practised8@svn-6123.devcloud.hosting.acquia.com:practised8.git'
 deploy:
   tag_source: true
 drush:
